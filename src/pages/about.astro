@@ -1,0 +1,23 @@
+---
+import Layout from '../layouts/BlogPost.astro';
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import { getCollection } from 'astro:content';
+import FormattedDate from '../components/FormattedDate.astro';
+---
+
+<Layout
+	title="About Me"
+	description="About Lai Wei"
+	pubDate={new Date('May 21, 2025')}
+	heroImage="/blog-placeholder-about.jpg"
+>
+	<ul>
+	<li>Robotics Engineering</li>
+	<li>School of Power and Mechanical Engineering</li>
+	<li>Wuhan University</li>
+	</ul>
+</Layout>
+
