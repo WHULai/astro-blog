@@ -41,6 +41,3 @@ To upload the compiled fold `dist`:
    ```bash
    put -r /Users/weilai/Documents/Blogs/callous-comet/dist /usr/share/nginx/html
    ```
-
-   
-
